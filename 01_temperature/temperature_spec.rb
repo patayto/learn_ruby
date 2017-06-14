@@ -19,6 +19,8 @@ require "temperature"
 
 describe "temperature conversion functions" do
 
+# We use '#' when 'describing' instance methods, and '.' for class mehtods
+# It's just a nice convention
   describe "#ftoc" do
 
     it "converts freezing temperature" do
